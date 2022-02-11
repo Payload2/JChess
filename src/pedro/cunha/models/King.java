@@ -4,7 +4,7 @@ public class King extends Piece{
 
     private boolean checked = false;
 
-    public King(EnumColor color, int posX, int posY, String img) {
+    public King(EnumColor color, int posX, int posY, String img, Board board) {
         super(color, posX, posY, img, board);
     }
 

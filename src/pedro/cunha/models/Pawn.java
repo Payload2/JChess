@@ -4,7 +4,7 @@ public class Pawn extends Piece{
 
     private boolean wasMoved = false;
 
-    public Pawn(EnumColor color, int posX, int posY, String img) {
+    public Pawn(EnumColor color, int posX, int posY, String img, Board board) {
         super(color, posX, posY, img, board);
     }
 

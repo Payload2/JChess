@@ -36,11 +36,6 @@ public class Board {
     }
 
     public void nextTurn(){
-        //(this.turn.equals(EnumColor.WHITE)) ? this.turn = EnumColor.BLACK : this.turn = EnumColor.WHITE;
-        if (this.turn.equals(EnumColor.WHITE)){
-            this.turn = EnumColor.BLACK;
-        }else{
-            this.turn = EnumColor.WHITE;
-        }
+        this.turn = (this.turn.equals(EnumColor.WHITE)) ? EnumColor.BLACK : EnumColor.WHITE;
     }
 }

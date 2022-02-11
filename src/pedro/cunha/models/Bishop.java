@@ -2,7 +2,7 @@ package pedro.cunha.models;
 
 public class Bishop extends Piece{
 
-    public Bishop(EnumColor color, int posX, int posY, String img) {
+    public Bishop(EnumColor color, int posX, int posY, String img, Board board) {
         super(color, posX, posY, img, board);
     }
 

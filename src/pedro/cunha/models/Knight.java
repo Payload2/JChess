@@ -2,7 +2,7 @@ package pedro.cunha.models;
 
 public class Knight extends Piece{
 
-    public Knight(EnumColor color, int posX, int posY, String img) {
+    public Knight(EnumColor color, int posX, int posY, String img, Board board) {
         super(color, posX, posY, img, board);
     }
 
